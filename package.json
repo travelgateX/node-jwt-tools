@@ -1,11 +1,9 @@
 {
   "name": "node-jwt-tools",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Middleware to convert jwt permissions in an object structure.",
   "main": "build/jwt-tool.js",
   "scripts": {
-    "dev": "rm -rf build/* && tsc --pretty && (node build/jwt-tool.js)",
-    "dev-debug": "rm -rf build/* && tsc --pretty && (node --inspect build/jwt-tool.js)",
     "start": "node build/jwt-tool.js",
     "build": "rm -rf build/* && tsc --pretty"
   },
